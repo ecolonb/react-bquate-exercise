@@ -1,0 +1,68 @@
+/* modal */
+
+.modal {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    background: rgba(148, 147, 147, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal #tache {
+    font-size: 4rem;
+    font-family: Avenir;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.modal-form {
+    width: 650px;
+    /* height: 550px; */
+    background: rgb(248, 246, 246);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(78, 77, 77);
+    font-family: Avenir;
+    border: 5px solid rgb(77, 77, 87);
+    min-height: 300px;
+}
+
+.modal-form #preview {
+    height: 350px;
+}
+
+.modal-form input {
+    font-size: 1.5rem;
+    font-family: Avenir;
+    padding: 10px;
+    font-size: 1rem;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.modal-form #subir {
+    height: 50px;
+    padding: 0 20px;
+    color: white;
+    background: linear-gradient(to right, purple, blueviolet);
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    margin: 20px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.modal-form #subir:hover {
+    background: linear-gradient(to left, purple, blueviolet);
+}
